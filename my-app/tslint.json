@@ -1,0 +1,12 @@
+{
+  "_comment": "extends: [tslint:recommended, tslint-react, tslint-config-prettier] json文件没有注释",
+  "extends": [],
+  "defaultSeverity": "warning",
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  }
+}
